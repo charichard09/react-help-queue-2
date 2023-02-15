@@ -22,7 +22,7 @@ function TicketList(props){
 }
 
 TicketList.propTypes = {
-  ticketList: PropTypes.object,
+  ticketList: PropTypes.array,
   onTicketSelection: PropTypes.func
 };
 
